@@ -1,0 +1,65 @@
+Do not email the prof or RAs to help, write questions on the Slack.
+Jupyter is the main editor we’ll be working with, we will not receive support if we use another editor, though we may use them.
+
+Python operates on a line-by-line basis, unlike JS.
+Carriafe returns to separate lines of code.
+Need to be really clear as to where you press enter- no longer meaningless whitespace
+
+indentation still indicates subordinate code
+
+Types of errors
+Syntax errors:
+skipped a semicolon after if block,
+editor will tell you exactly where you went wrong
+Runtime errors:
+Python knows what you are trying to do, but for some reason cannot run it
+e.g. trying to define the 7th item in a list of 5 items
+Logic errors
+most difficult to crack esp. if the code is long
+when the output is not what you want/expect it to be
+
+Variables
+You do not need to declare variables before you use them or even state their types, unlike JS.
+
+Number Variables
+Int = integers
+Float = decimals
+Complex Numbers = have a real part and an imaginary part
+part that comes second (3+4j) is the imaginary part, the j suffix is recognized as the imaginary section
+Python automatically recognizes what kind of variable it is
+
+Local variable: for specific function or method
+
+Global variable: for entire programme/module
+
+Private variables: visible only to the class to which they belong (don’t really exist in python)
+Convention: name prefixed with an underscore, e.g. _var. Any identifier of the form _var is replaced with _classname__var.
+
+Type conversion
+supports type conversion between several of its value types
+
+Numerical:
+int(), long(), float(), complex()
+Text
+str, repr, eval, chr
+code
+eval(str)
+tuples
+tuple, list, dict
+data type
+unichr, hex, oct, chr
+
+Using variables
+Python allows us to dynamically reuse variables by names
+Also possible to name out variables as functions.
+
+Version Control
+such as git, which allows you to track revisions of your work
+
+Master-only workflow: basic checkpoint-based tracking of work, can undo any of them if needed
+Branched workflow: more complicated, but more professional, 
+master branch holds all important changes
+development branch holds all working info that is changing over itme
+feature branch is where new aspects are made
+release branch is what is sent out and published
+Git facilitates this and allows everyone to simultaneously work on something that is in motion.
