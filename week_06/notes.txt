@@ -1,0 +1,57 @@
+numpy (np)
+Python library
+
+
+Pandas (pd)
+Python library
+Pandas series is a 1d labeled array capable of holding any data type
+can be initiated from ndarrats or dictionaries or scalar values
+
+Pandas dataframe
+2d labeled data structure with columns of potentially different types
+can be initiated from many things like dict of tuples, series, list of dicts, etc.
+
+looks much like an excel spreadsheet
+
+pandas can hold heterogenous data, numpy cannot
+
+Pandas: create table from scratch
+Load data from another file
+manipulate tabular data
+and more
+
+MapPlotLib (plt)
+most popular python plotting library
+based on pandas
+
+quickly customize
+text,colors,axes,legends,graph type, and more!
+
+Object-oriented vs pyplot (MATLAB-based)
+object-oriented explicitly creates figures and axes, and call methods on them
+pyplot uses specific functions and only affects one axis at a time
+assumes you're affecting the most recent axis you created
+object-oriented gives you more control
+
+pyplot good for super simple or interactive charts
+object-oriented better for more  complex charts
+plt. means pyplot
+ax. means object-oriented, though sometimes that also uses plt.
+
+formatting plots
+for every set of points, you can optionally add a format
+useful to look through matplotlib's plot documentation to see all options
+or run help plt.plot in your window and it'll give oyu a full list of options
+shortcuts exist too for some options! e.g. bo for blue circles
+
+you can have multiple axes in one figure
+create multiple subplots to show a side-by-side comparison
+specify which position you want the subplot to appear in 
+L to R, top to bottom
+
+Plotly is another datavis library
+for geospatial info, more complex than matplotlib
+open source tool for creating interactive datavis
+Cufflinks collects plotly with pandas to produce them
+
+Seaborn sits on top of matplotlib, makes things more visually interesting
